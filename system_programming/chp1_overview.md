@@ -81,24 +81,24 @@ ABI는 이런 인자값이 어떻게 레지스터, 스택 등에 전달 될지�
 
 ### POSIX와 SUS 표준 이야기
 1980년대 중반 IEEE에서 표준화를 시작함. POSIX (Portable Operating System Interface) 표준 이름은 FSF의 Richard Stallman이 제안한 것
-	- IEEE Std 1003.1 - 1998 (POSIX 1988)
-	- IEEE Std 1003.1 - 1990 (POSIX 1990)
-	- IEEE Std 1003.1b - 1993 (POSIX 1993 또는 POSIX.1b)
-	- IEEE Std 1003.1c - 1995 (POSIX 1995 또는 POSIX.1c)
-	- IEEE Std 1003.1 - 2001 (POSIX 2001) : POSIX 1990 을 바탕으로 실시간과 스레드에 대한 표준을 모두 포함
-	- IEEE Std 1003.1 - 2008 (POSIX 2008) : 당시 가장 최근
-	- IEEE Std 1003.1 - 2017
+- IEEE Std 1003.1 - 1998 (POSIX 1988)
+- IEEE Std 1003.1 - 1990 (POSIX 1990)
+- IEEE Std 1003.1b - 1993 (POSIX 1993 또는 POSIX.1b)
+- IEEE Std 1003.1c - 1995 (POSIX 1995 또는 POSIX.1c)
+- IEEE Std 1003.1 - 2001 (POSIX 2001) : POSIX 1990 을 바탕으로 실시간과 스레드에 대한 표준을 모두 포함
+- IEEE Std 1003.1 - 2008 (POSIX 2008) : 당시 가장 최근
+- IEEE Std 1003.1 - 2017
 
 유닉스 시스템 업체들은 서로 자신의 유닉스 변종을 표준 유닉스 운영체제로 정의하고자 노력.
 몇 대형 업체가 OSF과 X/Open을 합쳐 오픈 그룹이라는 컨소시엄 구성. 
 오픈 그룹은 SUS(Single Unix Specification)를 1990년대 초반에 발표.
 SUS는 POSIX 표준에 비해 비용이 저렴(무료) 빠르게 인기를 얻음.
 오늘날 SUS는 최신 POSIX 표준을 포함.
-	- SUS : 1994년 최초 버전 발표
-	- SUSv2 : 1997
-	- SUSv3 : 2002
-	- SUSv4 : 2008 발표. IEEE Std 1003.1 - 2008과 다른 몇 가지 표준안을 포함하고 있음.
-	- SUSv4-2018 : 2018
+- SUS : 1994년 최초 버전 발표
+- SUSv2 : 1997
+- SUSv3 : 2002
+- SUSv4 : 2008 발표. IEEE Std 1003.1 - 2008과 다른 몇 가지 표준안을 포함하고 있음.
+- SUSv4-2018 : 2018
 
 ### 리눅스와 표준
 리눅스는 POSIX와 SUS호환을 지향. 리눅스는 POSIX.1과 SUSv3를 따르지만, 공식적으로 인증을 마친 배포판이 없어 공식적으로  POSIX와 SUS 호환이라 말하긴 어려움.
