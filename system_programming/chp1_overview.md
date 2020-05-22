@@ -74,14 +74,14 @@ ABI는 이런 인자값이 어떻게 레지스터, 스택 등에 전달 될지�
 
 - [1985] Richard Stallman이 GNU(GNU is Not Unix) 선언문을 발표. 이후 FSF(Free Software Foundation) 설립.
 - 시스템의 대부분을 완성했지만 커널을 완성하지 못했음. 
-- Linus Torvalds가 교육용 유닉스인 미닉스를 사용하다가 리눅스라는 커널을 만들어 GNU GPL 라이센스로 공개.
+- [1991] Linus Torvalds가 교육용 유닉스인 미닉스를 사용하다가 리눅스라는 커널을 만들어 GNU GPL 라이센스로 공개.
 ![Fig1](./images/chp1/fig1.png)
 
 
 
 ### POSIX와 SUS 표준 이야기
 1980년대 중반 IEEE에서 표준화를 시작함. POSIX (Portable Operating System Interface) 표준 이름은 FSF의 Richard Stallman이 제안한 것
-- IEEE Std 1003.1 - 1998 (POSIX 1988)
+- IEEE Std 1003.1 - 1988 (POSIX 1988)
 - IEEE Std 1003.1 - 1990 (POSIX 1990)
 - IEEE Std 1003.1b - 1993 (POSIX 1993 또는 POSIX.1b)
 - IEEE Std 1003.1c - 1995 (POSIX 1995 또는 POSIX.1c)
